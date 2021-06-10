@@ -103,10 +103,4 @@ p {
     padding: 45px;
   }
 }
-@media (min-width: 375px) {
-  .container {
-    display: flexbox;
-    flex-direction: column;
-    width: 100%;
-  }
-}
+
