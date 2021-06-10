@@ -33,7 +33,7 @@ p {
 .Bright-orange {
   background-color: var(--bright-orange);
   color: white;
-  border-radius: 10px 10px 0 0;
+  border-radius: 10px 10px 0  0;
 }
 .Bright-orange .btn {
   color: var(--bright-orange);
@@ -84,14 +84,15 @@ p {
 @media (min-width: 992px) {
   .container {
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    align-items: stretch;
     justify-content: center;
     min-height: 100vh;
     max-width: 900px;
     margin: auto;
   }
   .Bright-orange {
-    border-radius: 10px 0 0 10px;
+     border-radius: 10px 0 0 10px; 
   }
   .Very-dark-cyan {
     border-radius: 0 10px 10px 0;
